@@ -9,7 +9,7 @@
         <span class="lang-en">Rhyme Dictionary</span>
       </h1>
       <p class="rd-subtitle lang-hi">कविता-कोश से तुकबंदी खोजें</p>
-      <p class="rd-subtitle lang-en">Find rhyming words drawn from the Braj poetry corpus</p>
+      <p class="rd-subtitle lang-en">Find rhyming words drawn from the Bhojpuri poetry corpus</p>
     </div>
   </header>
 
@@ -21,14 +21,14 @@
         type="text"
         id="rd-input"
         class="rd-input"
-        placeholder="शब्द लिखें… e.g. मँझारन"
+        placeholder="शब्द लिखें… e.g. बिरहा"
         autocomplete="off"
         spellcheck="false"
       >
       <button class="rd-clear" id="rd-clear" aria-label="Clear">✕</button>
     </div>
-    <p class="rd-hint lang-hi">किसी भी ब्रज काव्य शब्द को टाइप करें — तुक-मिलान स्वतः होगा</p>
-    <p class="rd-hint lang-en">Type any Braj poetry word — rhyme depth is detected automatically</p>
+    <p class="rd-hint lang-hi">किसी भी भोजपुरी काव्य शब्द को टाइप करें — तुक-मिलान स्वतः होगा</p>
+    <p class="rd-hint lang-en">Type any Bhojpuri poetry word — rhyme depth is detected automatically</p>
   </div>
 
   <!-- Depth indicator -->
@@ -52,10 +52,10 @@
     <div class="rd-example-chips">
       <span class="rd-chip-label lang-hi">उदाहरण:</span>
       <span class="rd-chip-label lang-en">Try:</span>
-      <button class="rd-example-chip" data-word="मँझारन">मँझारन</button>
-      <button class="rd-example-chip" data-word="बिहरैं">बिहरैं</button>
+      <button class="rd-example-chip" data-word="बिरहा">बिरहा</button>
+      <button class="rd-example-chip" data-word="सजनी">सजनी</button>
       <button class="rd-example-chip" data-word="नयन">नयन</button>
-      <button class="rd-example-chip" data-word="करैं">करैं</button>
+      <button class="rd-example-chip" data-word="आई">आई</button>
     </div>
   </div>
 
@@ -72,7 +72,7 @@
      INJECT POEM CORPUS as JSON for client-side processing
      ══════════════════════════════════════════════════════ -->
 <script>
-window.BRAJ_CORPUS = [
+window.BHOJPURI_CORPUS = [
   {{ range where .Site.RegularPages "Type" "poems" }}
   {
     title: {{ .Title | jsonify }},
@@ -82,6 +82,8 @@ window.BRAJ_CORPUS = [
   },
   {{ end }}
 ];
+// Alias for the rhyme-dictionary engine
+window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 </script>
 
 <script src="/js/rhyme-dictionary.js"></script>
@@ -162,7 +164,7 @@ window.BRAJ_CORPUS = [
 .rd-input:focus {
   border-color: var(--gold-dim);
   box-shadow: 0 0 0 4px rgba(232,184,122,0.07), 0 2px 20px rgba(0,0,0,0.4);
-  background: #281208;
+  background: #082812;
 }
 .rd-input::placeholder {
   color: rgba(160,120,88,0.45);
@@ -224,7 +226,7 @@ window.BRAJ_CORPUS = [
 }
 .rd-depth-pill:hover { border-color: var(--gold-dim); color: var(--gold); }
 .rd-depth-pill.active {
-  background: #3b0a0a;
+  background: #0a3b1e;
   border-color: var(--border-light);
   color: var(--gold);
 }
@@ -300,7 +302,7 @@ window.BRAJ_CORPUS = [
 .rd-card-accent {
   width: 4px;
   flex-shrink: 0;
-  background: linear-gradient(180deg, var(--accent) 0%, #3b0a0a 100%);
+  background: linear-gradient(180deg, var(--accent) 0%, #0a3b1e 100%);
   opacity: 0.6;
 }
 
@@ -328,7 +330,7 @@ window.BRAJ_CORPUS = [
 .rd-word .rhyme-suffix {
   color: var(--accent-light);
   font-weight: bold;
-  border-bottom: 2px solid rgba(224,85,64,0.4);
+  border-bottom: 2px solid rgba(26,154,125,0.4);
 }
 
 .rd-sources {
@@ -363,8 +365,8 @@ window.BRAJ_CORPUS = [
   font-family: var(--font-hi);
   font-size: 0.88rem;
   color: var(--accent-light);
-  background: rgba(192,57,43,0.1);
-  border: 1px solid rgba(192,57,43,0.2);
+  background: rgba(13,107,90,0.1);
+  border: 1px solid rgba(13,107,90,0.2);
   border-radius: 6px;
   padding: 0.2rem 0.65rem;
   letter-spacing: 0.02em;
@@ -394,48 +396,32 @@ window.BRAJ_CORPUS = [
   letter-spacing: 0;
   text-transform: none;
 }
-.rd-group-count {
-  font-size: 0.65rem;
-  background: rgba(232,184,122,0.08);
-  color: var(--gold-dim);
-  border-radius: 20px;
-  padding: 0.05rem 0.45rem;
-  border: 1px solid rgba(232,184,122,0.15);
-}
 
-/* ── EMPTY / NO-RESULTS ───────────────────────── */
+/* ── EMPTY STATE ──────────────────────────────── */
 .rd-empty-state {
   text-align: center;
-  padding: 4rem 1rem 3rem;
+  padding: 4rem 1rem;
   color: var(--text-light);
 }
 .rd-empty-glyph {
   font-size: 3.5rem;
-  color: var(--gold-dim);
-  opacity: 0.2;
-  margin-bottom: 1.25rem;
-  display: block;
-}
-.rd-empty-state p {
-  font-size: 1rem;
-  margin-bottom: 0.35rem;
-  line-height: 1.7;
+  color: var(--text-dim);
+  margin-bottom: 1rem;
+  opacity: 0.5;
 }
 .rd-no-results-hint {
-  font-size: 0.82rem !important;
-  color: var(--text-dim) !important;
+  font-size: 0.82rem;
+  color: var(--text-dim);
   font-family: var(--font-en);
-  margin-top: 0.5rem !important;
+  margin-top: 0.5rem;
 }
-
-/* ── EXAMPLE CHIPS ────────────────────────────── */
 .rd-example-chips {
-  margin-top: 1.75rem;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
 }
 .rd-chip-label {
   font-size: 0.8rem;
@@ -446,45 +432,20 @@ window.BRAJ_CORPUS = [
   background: var(--bg-card);
   border: 1px solid var(--border-light);
   border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-family: var(--font-hi);
+  font-size: 0.9rem;
   color: var(--gold-dim);
   cursor: pointer;
-  font-family: var(--font-hi);
-  font-size: 0.95rem;
-  padding: 0.3rem 1rem;
   transition: all 0.18s;
 }
-.rd-example-chip:hover {
-  background: #3b0a0a;
-  border-color: var(--border-light);
-  color: var(--gold);
-  transform: translateY(-1px);
-}
-
-.hidden { display: none !important; }
-
-/* ── LOADING INDICATOR ────────────────────────── */
-.rd-loading {
-  text-align: center;
-  padding: 2rem;
-  color: var(--text-dim);
-  font-family: var(--font-en);
-  font-size: 0.9rem;
-}
-.rd-loading::after {
-  content: '…';
-  animation: ellipsis 1.2s infinite;
-}
-@keyframes ellipsis {
-  0%,100% { opacity: 0.2; }
-  50%      { opacity: 1; }
-}
+.rd-example-chip:hover { border-color: var(--gold-dim); color: var(--gold); background: #0a3b1e; }
 
 /* ── RESPONSIVE ───────────────────────────────── */
 @media (max-width: 580px) {
-  .rd-input { font-size: 1.1rem; }
-  .rd-word  { font-size: 1.1rem; }
-  .rd-card-body { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
-  .rd-card-right { text-align: left; }
+  .rd-header { flex-direction: column; gap: 0.75rem; padding: 1.75rem 0 1.5rem; }
+  .rd-header-icon { font-size: 2.2rem; }
+  .rd-input { font-size: 1.2rem; }
 }
 </style>
 

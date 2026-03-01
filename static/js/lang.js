@@ -1,8 +1,8 @@
 // ============================================
-// Braj Kavya — Language Switcher
+// Bhojpuri Kavya — Language Switcher
 // ============================================
 
-const LANG_KEY = 'braj_lang';
+const LANG_KEY = 'bhojpuri_lang';
 
 function getLang() {
   return localStorage.getItem(LANG_KEY) || 'hi';

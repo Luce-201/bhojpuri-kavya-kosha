@@ -1,5 +1,5 @@
 /* ============================================
-   SEARCH FEATURE — Dark Gold Theme
+   SEARCH FEATURE — Dark Teal Theme
    ============================================ */
 
 /* ── HEADER SEARCH BAR ──────────────────────────────────────────────── */
@@ -108,7 +108,7 @@
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 .filter-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
-.filter-btn.active { background: #3b0a0a; border-color: var(--border-light); color: var(--gold); }
+.filter-btn.active { background: #0a3b1e; border-color: var(--border-light); color: var(--gold); }
 
 /* Stats bar */
 .search-stats {
@@ -190,13 +190,7 @@
   padding: 4rem 1rem;
   color: var(--text-light);
 }
-.search-empty-icon { font-size: 3rem; margin-bottom: 1rem; opacity: 0.4; }
-.search-empty p, .search-no-results p { margin-bottom: 0.4rem; font-size: 1rem; }
-.search-empty .en, .search-no-results .en { font-size: 0.9rem; opacity: 0.6; }
+.search-empty-icon { font-size: 3rem; margin-bottom: 1rem; }
+.search-empty p, .search-no-results p { margin-bottom: 0.5rem; }
+.search-empty .en, .search-no-results .en { font-family: var(--font-en); font-size: 0.9rem; color: var(--text-dim); }
 .hidden { display: none !important; }
-
-/* ── RESPONSIVE ──────────────────────────────────────────────────── */
-@media (max-width: 700px) {
-  .header-search { display: none; }
-  .search-input-large { font-size: 1rem; padding: 0.75rem 2.75rem 0.75rem 3rem; }
-}

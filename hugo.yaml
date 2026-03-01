@@ -1,6 +1,6 @@
-baseURL: "https://braj-poetry.netlify.app/"
+baseURL: "https://bhojpuri-poetry.netlify.app/"
 languageCode: "hi"
-title: "ब्रज काव्य कोश"
+title: "भोजपुरी काव्य कोश"
 outputs:
   home:
     - HTML
@@ -22,12 +22,12 @@ enableRobotsTXT: true
 enableEmoji: true
 
 params:
-  siteName: "ब्रज काव्य कोश"
-  siteNameEn: "Braj Kavya Kosha"
-  description: "A digital anthology of Braj language poetry"
-  descriptionHi: "ब्रज भाषा काव्य का डिजिटल संग्रह"
-  accentColor: "#8B1A1A"   # deep red, like rekhta — change if you want
-  bgColor: "#FDF6E3"        # warm cream background
+  siteName: "भोजपुरी काव्य कोश"
+  siteNameEn: "Bhojpuri Kavya Kosha"
+  description: "A digital anthology of Bhojpuri language poetry"
+  descriptionHi: "भोजपुरी भाषा काव्य का डिजिटल संग्रह"
+  accentColor: "#0d6b5a"   # deep teal — change if you want
+  bgColor: "#E3FDF6"        # cool mint background
 
 markup:
   goldmark:

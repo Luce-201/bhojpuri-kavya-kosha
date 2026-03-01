@@ -1,40 +1,29 @@
 // ============================================
-// Braj Kavya Dictionary — Word Click Feature
+// Bhojpuri Kavya Kosha — Word Tooltip
+// Reads from window.BHOJPURI_DICTIONARY (set in baseof.html)
 // ============================================
 
-const raw = window.BRAJ_DICTIONARY || '{}';
-const dictionary = typeof raw === 'string' ? JSON.parse(raw) : raw;
+const dictionary = window.BHOJPURI_DICTIONARY || {};
 
-// This function wraps each word in the poem in a clickable <span>
+// Make every word in .poem-body clickable
 function makePoemWordsClickable() {
   const poemBody = document.getElementById('poem-text');
-  if (!poemBody) return; // Not on a poem page — do nothing
-
-  // Walk through all text nodes inside the poem
-  const walker = document.createTreeWalker(
-    poemBody,
-    NodeFilter.SHOW_TEXT,
-    null
-  );
+  if (!poemBody) return;
 
   const textNodes = [];
-  while (walker.nextNode()) {
-    textNodes.push(walker.currentNode);
+  const walker = document.createTreeWalker(poemBody, NodeFilter.SHOW_TEXT, null, false);
+  let node;
+  while ((node = walker.nextNode())) {
+    if (node.textContent.trim()) textNodes.push(node);
   }
 
   textNodes.forEach(node => {
-    // Split text by spaces/punctuation, wrap each word
-    const text = node.textContent;
     const parent = node.parentNode;
-    
-    // Don't process if inside a link or heading
-    if (parent.tagName === 'A' || parent.tagName === 'H1' || 
-        parent.tagName === 'H2' || parent.tagName === 'H3') return;
+    if (parent.classList && parent.classList.contains('poem-word')) return;
 
+    const parts = node.textContent.split(/(\s+)/);
     const fragment = document.createDocumentFragment();
-    // Split on spaces, keeping punctuation attached to words
-    const parts = text.split(/(\s+)/);
-    
+
     parts.forEach(part => {
       if (/^\s+$/.test(part)) {
         // Pure whitespace — keep as is
@@ -64,9 +53,7 @@ function onWordClick(event) {
   let meaning = dictionary[word];
 
   // If not found, try without diacritics variations
-  // (Handles cases like "नयनों" when dictionary has "नयन")
   if (!meaning) {
-    // Try stripping common Hindi suffixes for lookup
     const stripped = stripSuffix(word);
     if (stripped !== word) meaning = dictionary[stripped];
   }
@@ -104,8 +91,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeTooltip();
 });
 
-// Simple suffix stripper for Hindi words
-// This helps find "राम" when the word is "रामने" etc.
+// Simple suffix stripper for Hindi/Bhojpuri words
 function stripSuffix(word) {
   const suffixes = ['ने', 'को', 'से', 'में', 'पर', 'के', 'की', 'का', 'ों', 'ाँ', 'ी', 'ा', 'े'];
   for (const suffix of suffixes) {

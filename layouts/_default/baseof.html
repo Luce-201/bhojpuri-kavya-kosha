@@ -9,7 +9,7 @@
   <!-- Apply saved language BEFORE render to prevent flash -->
   <script>
     (function() {
-      var lang = localStorage.getItem('braj_lang') || 'hi';
+      var lang = localStorage.getItem('bhojpuri_lang') || 'hi';
       document.documentElement.setAttribute('data-lang', lang);
     })();
   </script>
@@ -80,14 +80,14 @@
 </main>
 
 <footer class="site-footer">
-  <span class="lang-hi">ब्रज काव्य कोश</span>
-  <span class="lang-en">Braj Kavya Kosha</span>
+  <span class="lang-hi">भोजपुरी काव्य कोश</span>
+  <span class="lang-en">Bhojpuri Kavya Kosha</span>
 </footer>
 
 {{ $dict := index .Site.Data "dictionary" }}
 {{ if $dict }}
 <script>
-  window.BRAJ_DICTIONARY = {{ $dict | jsonify }};
+  window.BHOJPURI_DICTIONARY = {{ $dict | jsonify }};
 </script>
 {{ end }}
 
