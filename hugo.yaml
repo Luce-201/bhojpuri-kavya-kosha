@@ -1,6 +1,7 @@
 baseURL: "https://bhojpuri-kavya-kosh.netlify.app/"
 languageCode: "hi"
 title: "भोजपुरी काव्य कोश"
+
 outputs:
   home:
     - HTML
@@ -11,16 +12,13 @@ outputs:
   page:
     - HTML
 
-# Taxonomies — this creates your category/filter system
 taxonomies:
   theme: themes
   poet: poets_tax
 
-# Pagination
 pagination:
   pagerSize: 20
 
-# Build settings
 enableRobotsTXT: true
 enableEmoji: true
 
@@ -29,13 +27,10 @@ params:
   siteNameEn: "Bhojpuri Kavya Kosha"
   description: "A digital anthology of Bhojpuri language poetry"
   descriptionHi: "भोजपुरी भाषा काव्य का डिजिटल संग्रह"
-  accentColor: "#1a5ca8"   # deep blue — change if you want
-  bgColor: "#e8f0fd"        # cool blue background
+  accentColor: "#1a5ca8"
+  bgColor: "#e8f0fd"
 
 markup:
   goldmark:
     renderer:
-      unsafe: true   # allows HTML in markdown — needed for audio embeds
-
-
-
+      unsafe: true
