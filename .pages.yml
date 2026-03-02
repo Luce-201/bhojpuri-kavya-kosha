@@ -34,39 +34,7 @@ content:
         type: "rich-text"
       - { label: "Draft", name: "draft", type: "boolean", default: false }
       - { label: "Date", name: "date", type: "date" }
-
-
-  - name: "geet"
-    label: "गीत / Geet"
-    type: "collection"
-    path: "content/geet"
-    view:
-      fields: ["title", "poet", "raag"]
-    fields:
-      - { label: "शीर्षक / Title", name: "title", type: "string" }
-      - { label: "कवि / Poet", name: "poet", type: "string" }
-      - name: "raag"
-        label: "राग / Raag"
-        type: "string"
-        required: false
-      - name: "themes"
-        label: "विषय / Themes"
-        type: "list"
-        hint: "Add themes one by one (e.g. भक्ति, श्रृंगार, प्रकृति)"
-      - name: "audio_url"
-        label: "ऑडियो लिंक / Audio URL"
-        type: "string"
-        required: false
-      - name: "notes"
-        label: "टिप्पणी / Notes"
-        type: "rich-text"
-        required: false
-      - name: "body"
-        label: "गीत / Geet Text"
-        type: "rich-text"
-      - { label: "Draft", name: "draft", type: "boolean", default: false }
-      - { label: "Date", name: "date", type: "date" }
-
+      
   - name: "poets"
     label: "कवि / Poets"
     type: "collection"
