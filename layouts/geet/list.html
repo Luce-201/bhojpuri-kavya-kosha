@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="list-page">
+  <header class="list-header">
+    <h1>
+      <span class="lang-hi">गीत</span>
+      <span class="lang-en">Geet</span>
+    </h1>
+    <p>{{ len .Pages }} गीत / geets</p>
+  </header>
+  <div class="poem-grid">
+    {{ range .Pages }}
+    {{ partial "poem-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

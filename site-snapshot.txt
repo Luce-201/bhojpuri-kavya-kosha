@@ -41,263 +41,6 @@ title: "संग्रह / Collections"
 ---
 
 ================================================================
-FILE: ./content/poems/2026-02-26-kay-bacho-man-te-basi.md
-================================================================
-
----
-title: "काय बचो मन ते बसी "
-poet: Rasleen
-form: सवैया
-draft: false
----
-काय बचो मन ते बसी हौं जिय संग निकारइ जो कछु तेरे ।
-
-हाथ के माथे धरे कुच संभु के काय के सौंह को देत सबेरे।
-
-नाभि के कुंड में सोरी के सौंह को मो मन हौं रसलीन जो तेरे ।
-
-बात की जा परतीति नही मुख को ए धरो अब जीभ में मेरे ॥
-
-================================================================
-FILE: ./content/poems/2026-02-26-.md
-================================================================
-
----
-title: मानुस हौं तो वही रसखान
-poet: "Raskhan "
-form: सवैया
-themes:
-  - Krishna
-draft: false
----
-मानुस हौं तो वही रसखान, बसौं मिलि गोकुल गाँव के ग्वारन।  
-जो पसु हौं तो कहा बस मेरो, चरौं नित नंद की धेनु मँझारन॥  
-पाहन हौं तो वही गिरि को, जो धर्यो कर छत्र पुरंदर धारन।  
-जो खग हौं तो बसेरो करौं मिलि कालिंदीकूल कदम्ब की डारन॥
-
-================================================================
-FILE: ./content/poems/2026-02-27--1.md
-================================================================
-
----
-title: तनकी दुति स्याम
-poet: Tulsidas
-form: सवैया
-draft: false
----
-तनकी दुति स्याम सरोरूह लोचन कंजकी मंजुलताई हरैं।  
-अति सुंदर सोहत धूरि भरे छबि भूरि अनंगकी दुरि धरैं।  
-दमकैं दँतियाँ दुति दामिनि-ज्यों किलकैं कल बाल-बिनोद करैं।  
-अवधेस के बालक चारि सदा तुलसी-मन -मंदिरमें बिहरैं।
-
-================================================================
-FILE: ./content/poems/2026-02-27-.md
-================================================================
-
----
-title: पग नूपुर औ पहुँची
-poet: Tulsidas
-form: सवैया
-draft: false
----
-पग नूपुर औ पहुँची करकंजनि मंजु बनी मनिमाल हिएँ।  
-नवनीत कलेवर पीत झँगा झलकै पुलकैं नृपु गोद लिएँ।  
-अरबिंदु से आननु रूप मरंदु अनंदित लोचन -भृंग पिएँ।  
-मनमो न बस्यौ अस बालकु जौं तुलसी जगमें फलु कौन जिएँ।
-
-================================================================
-FILE: ./content/poems/2026-02-27-padkanjini-manju-bani.md
-================================================================
-
----
-title: पदकंजनि मंजु बनीं
-poet: Tulsidas
-form: सवैया
-themes: Ram
-draft: false
----
-पदकंजनि मंजु बनीं पनहीं धनुहीं सर पंकज-पानि लिएँ।  
-लरिका सँग खेलत डोलत हैं सरजू-तट चौहट हाट हिएँ।  
-तुलसी अस बालक सों नहिं नेहु कहा जप जाग समाधि किएँ।  
-नर वे खर सूकर स्वान समान कहैा जगमें फलु कौन जिएँ।
-
-================================================================
-FILE: ./content/poems/2026-02-27-saraju-bar-teerahi.md
-================================================================
-
----
-title: सरजू बर तीरहि तीर फिरैं
-poet: Tulsidas
-form: सवैया
-draft: false
----
-सरजू बर तीरहि तीर फिरैं रघुबीर, सखा अरु बीर सबै।  
-धनुहीं करतीर, निषंग कसे कटि, पीत दुकूल नवीन फबै॥
-
-तुलसी तेहि औसर लावनिता दस चारि नौ तीन इकील सबै।  
-मति भारति पंगु भई जो निहारि, विचारि फिरी उपमा न पवै॥
-
-================================================================
-FILE: ./content/poems/2026-02-27-tanaki-duti-syam.md
-================================================================
-
----
-title: "तनकी दुति स्याम "
-poet: Tulsidas
-form: सवैया
-draft: false
----
-तनकी दुति स्याम सरोरूह लोचन कंजकी मंजुलताई हरैं।  
-अति सुंदर सोहत धूरि भरे छबि भूरि अनंगकी दुरि धरैं।  
-दमकैं दँतियाँ दुति दामिनि-ज्यों किलकैं कल बाल-बिनोद करैं।  
-अवधेस के बालक चारि सदा तुलसी-मन -मंदिरमें बिहरैं।
-
-================================================================
-FILE: ./content/poems/tulsidas-awdhes-ke-dware.md
-================================================================
-
----
-title: अवधेस के द्वारे सकारे गई।
-poet: Tulsidas
-form: सवैया
-audio_url: <iframe src="https://archive.org/embed/Kavitawali" width="500"
-  height="30" frameborder="0" webkitallowfullscreen="true"
-  mozallowfullscreen="true" allowfullscreen></iframe>
-draft: false
----
-अवधेस के द्वारे सकारे गई सुत गोद में भूपति लै निकसे ।  
-अवलोकि हौं सोच बिमोचन को ठगि-सी रही, जे न ठगे धिक-से ॥  
-'तुलसी' मन-रंजन रंजित-अंजन नैन सुखंजन जातक-से ।  
-सजनी ससि में समसील उभै नवनील सरोरुह-से बिकसे ॥
-
-तन की दुति श्याम सरोरुह लोचन कंज की मंजुलताई हरैं ।  
-अति सुंदर सोहत धूरि भरे छबि भूरि अनंग की दूरि धरैं ॥  
-दमकैं दँतियाँ दुति दामिनि ज्यों किलकैं कल बाल बिनोद करैं ।  
-अवधेस के बालक चारि सदा 'तुलसी' मन मंदिर में बिहरैं ॥
-
-सीस जटा, उर बाहु बिसाल, बिलोचन लाल, तिरीछी सी भौंहैं ।  
-तून सरासन-बान धरें तुलसी बन मारग में सुठि सोहैं ॥  
-सादर बारहिं बार सुभायँ, चितै तुम्ह त्यों हमरो मनु मोहैं ।  
-पूँछति ग्राम बधु सिय सों, कहो साँवरे-से सखि रावरे को हैं ॥
-
-सुनि सुंदर बैन सुधारस-साने, सयानी हैं जानकी जानी भली ।  
-तिरछै करि नैन, दे सैन, तिन्हैं, समुझाइ कछु मुसुकाइ चली ॥  
-'तुलसी' तेहि औसर सोहैं सबै, अवलोकति लोचन लाहू अली ।  
-अनुराग तड़ाग में भानु उदै, बिगसीं मनो मंजुल कंजकली ॥
-
-================================================================
-FILE: ./content/poems/tulsidas-kabahu-sasi-magat.md
-================================================================
-
----
-title: कबहूँ ससि मागत आरि करैं
-poet: Tulsidas
-form: सवैया
-audio_url: https://archive.org/embed/kabahu-sasi-mangat-aari-kare
-draft: false
----
-कबहूँ ससि मागत आरि करैं कबहूँ प्रतिबिंब निहारि डरैं।
-
-कबहूँ करताल बजाइकै नाचत मातु सबै मन मोद भरैं।
-
-कबहूँ रिसिआइ कहैं हठिकै पुनि लेत सोई जेहि लागि अरैं।
-
-अवधेस के बालक चारि सदा तुलसी-मन-मंदिर में बिहरैं॥
-
-================================================================
-FILE: ./content/poems/tulsidas-meen-viyog.md
-================================================================
-
----
-title: मीन वियोग न सहि सकै
-poet: Surdas
-poet_en: Surdas
-form: दोहा
-draft: false
----
-मीन वियोग न सहि सकै, नीर न पूछै बात।
-
-देखि जु तू ताकी गतिहि, रति न घटै तन जात॥
-
-================================================================
-FILE: ./content/poems/tulsidas-var-dant.md
-================================================================
-
----
-title: वर दंत की पंगति कुंदकली
-poet: Tulsidas
-form: सवैया
-draft: false
----
-वर दंत की पंगति कुंदकली, अधराधर-पल्लव खोलन की।
-
-चपला चमकै घन बीच, जगै छबि मोति माल अमोलन की॥
-
-घुँघरारी लटैं लटकैं मुख ऊपर, कुंडल लोल कपोलन की।
-
-निवछावरि प्रान करै तुलसी, बलि जाउँ लला इन बोलन की॥
-
-================================================================
-FILE: ./content/poets/2026-02-20-tulsidas.md
-================================================================
-
----
-title: Tulsidas
-title_en: Tulsidas
-dates: 1511-1623
-region: Modern Uttar Pradesh
-image: /uploads/tulsidas.png
----
-गोस्वामी तुलसीदास (लगभग 1532–1623) हिंदी साहित्य के महान भक्तिकालीन कवि थे, जिनका नाम रामभक्ति की परंपरा में अत्यंत आदर से लिया जाता है। उनका जन्म उत्तर प्रदेश के बाँदा जनपद (राजापुर) में माना जाता है। बाल्यावस्था में ही अनाथ हो जाने के कारण उनका जीवन प्रारम्भ से ही संघर्षपूर्ण रहा, परंतु गुरु नरहरिदास के सान्निध्य में उन्हें आध्यात्मिक दिशा मिली।
-
-तुलसीदास ने अवधी भाषा में रचित _रामचरितमानस_ के माध्यम से भगवान राम के आदर्श जीवन, मर्यादा और धर्म की ऐसी प्रस्तुति दी, जिसने जन-जन के हृदय में भक्ति की नई चेतना जगाई। उन्होंने संस्कृत की गूढ़ परंपरा को लोकभाषा में ढालकर धर्म और साहित्य को जनता के निकट ला दिया। _विनयपत्रिका_, _कवितावली_, _दोहावली_ और _गीतावली_ उनकी अन्य प्रमुख कृतियाँ हैं।
-
-तुलसीदास का काव्य केवल भक्ति का ही नहीं, बल्कि नीति, समाज और मानवीय मूल्यों का भी गहन दर्पण है। वे भारतीय संस्कृति में मर्यादा, समन्वय और श्रद्धा के अमर गायक माने जाते हैं।
-
-================================================================
-FILE: ./content/poets/2026-02-21-.md
-================================================================
-
----
-title: Surdas
-title_en: "Surdas"
-dates: 1478-1583
-region: Modern Uttar Pradesh
-image: /uploads/surdas.png
----
-सूरदास (लगभग 1478–1583) भक्तिकाल के महान कृष्णभक्त कवि थे, जिनका स्थान हिंदी साहित्य में अत्यंत ऊँचा माना जाता है। उनका जन्म प्रायः उत्तर प्रदेश के रुनकता या सीही गाँव में माना जाता है। वे जन्मांध थे—ऐसी मान्यता प्रचलित है—परंतु उनकी अंतर्दृष्टि और काव्यदृष्टि अद्भुत थी।
-
-सूरदास वल्लभाचार्य द्वारा प्रवर्तित पुष्टिमार्ग से जुड़े और श्रीकृष्ण की बाल एवं किशोर लीलाओं का अत्यंत सजीव, कोमल और भावपूर्ण चित्रण किया। उनकी प्रमुख कृति _सूरसागर_ है, जिसमें कृष्ण की बाल-लीलाओं, गोपियों के प्रेम और वात्सल्य-भाव का अनूठा संसार रचा गया है। इसके अतिरिक्त _सूरसारावली_ और _साहित्यलहरी_ भी उनकी उल्लेखनीय रचनाएँ हैं।
-
-सूरदास की भाषा ब्रजभाषा है, जिसमें माधुर्य, सरलता और संगीतात्मकता का अद्भुत संगम मिलता है। उनके पद आज भी भजन-कीर्तन और शास्त्रीय संगीत की परंपरा में गाए जाते हैं। वे भक्ति, प्रेम और करुणा के अमर गायक के रूप में भारतीय साहित्य में सदा स्मरणीय रहेंगे।
-
-================================================================
-FILE: ./content/poets/2026-02-26-raskhan.md
-================================================================
-
----
-title: "Raskhan "
-dates: 1548-1628
-image: /uploads/raskhan.png
----
-रसखान (लगभग 16वीं शताब्दी) भक्तिकाल के अद्वितीय कवि थे, जो मुस्लिम परिवार में जन्म लेकर भी श्रीकृष्ण की अनन्य भक्ति में लीन हो गए। उनका वास्तविक नाम सैयद इब्राहीम माना जाता है। उनका जीवन इस सत्य का सजीव उदाहरण है कि प्रेम और भक्ति किसी जाति, धर्म या संप्रदाय की सीमाओं में बंधे नहीं होते।
-
-रसखान ने ब्रजभाषा में श्रीकृष्ण की बाल-लीलाओं, वृंदावन की रमणीयता और गोप-गोपियों के सहज प्रेम का अत्यंत कोमल और सरस चित्रण किया। उनकी प्रमुख कृतियों में _सुजान रसखान_ और _प्रेमवाटिका_ उल्लेखनीय हैं। उनकी कविता में माधुर्य-भाव, वात्सल्य और दार्शनिक गहराई का सुंदर समन्वय मिलता है।
-
-रसखान की प्रसिद्ध पंक्तियाँ—“मानुस हौं तो वही रसखान…”—उनकी कृष्ण-प्रेम में पूर्ण समर्पण की झलक देती हैं। वे भारतीय भक्ति-साहित्य में सांस्कृतिक समन्वय और प्रेम की सार्वभौमिकता के प्रतीक माने जाते हैं।
-
-================================================================
-FILE: ./content/poets/2026-02-26-rasleen.md
-================================================================
-
----
-title: Rasleen
-dates: 1689-1750
-region: Bilgram, Hardoi, Uttar Pradesh
----
-
-
-================================================================
 FILE: ./content/search/index.md
 ================================================================
 
@@ -429,8 +172,8 @@ params:
   siteNameEn: "Bhojpuri Kavya Kosha"
   description: "A digital anthology of Bhojpuri language poetry"
   descriptionHi: "भोजपुरी भाषा काव्य का डिजिटल संग्रह"
-  accentColor: "#0d6b5a"   # deep teal — change if you want
-  bgColor: "#E3FDF6"        # cool mint background
+  accentColor: "#1a5ca8"   # deep blue — change if you want
+  bgColor: "#e8f0fd"        # cool blue background
 
 markup:
   goldmark:
@@ -726,7 +469,6 @@ FILE: ./layouts/index.html
       <span class="lang-en">Verse of the Day</span>
     </p>
     <blockquote class="rk-hero-verse">
-      <!-- Replace this with a Bhojpuri verse once content is added -->
       काहे रोवत बाड़ू सजनी, मिलन के बेरिया आई।<br>
       नैना के पनिया पोंछ ल रे, खुशियाँ लेके आई॥
     </blockquote>
@@ -750,7 +492,7 @@ FILE: ./layouts/index.html
 </section>
 
 <!-- ══════════════════════════════════════════════════════
-     STATS STRIP  (poems · poets · collections only)
+     STATS STRIP
      ══════════════════════════════════════════════════════ -->
 <div class="rk-stats-strip">
   <div class="rk-stats-inner">
@@ -1008,12 +750,12 @@ FILE: ./layouts/index.html
 </section>
 
 <!-- ══════════════════════════════════════════════════════
-     HOME PAGE STYLES
+     HOME PAGE STYLES — BLUE THEME
      ══════════════════════════════════════════════════════ -->
 <style>
 /* ─── HERO ────────────────────────────────────────────── */
 .rk-hero {
-  background: linear-gradient(160deg, #00100a 0%, #082a1a 45%, #051a10 100%);
+  background: linear-gradient(160deg, #00081a 0%, #081a3a 45%, #050f28 100%);
   color: #f0e0c8;
   padding: 5rem 2rem 4.5rem;
   text-align: center;
@@ -1025,7 +767,7 @@ FILE: ./layouts/index.html
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, rgba(13,107,90,0.18) 0%, transparent 70%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(26,92,168,0.18) 0%, transparent 70%);
   pointer-events: none;
 }
 .rk-hero::after {
@@ -1130,7 +872,7 @@ FILE: ./layouts/index.html
 
 /* ─── STATS STRIP ─────────────────────────────────────── */
 .rk-stats-strip {
-  background: #060f0b;
+  background: #03070f;
   border-bottom: 1px solid var(--border);
   margin: 0 -1.5rem 2.5rem;
 }
@@ -1228,7 +970,7 @@ FILE: ./layouts/index.html
   gap: 1rem;
 }
 .rk-poem-row:last-child { border-bottom: none; }
-.rk-poem-row:hover { background: #082c1a; padding-left: 1.6rem; }
+.rk-poem-row:hover { background: #081e42; padding-left: 1.6rem; }
 .rk-poem-row-text { flex: 1; min-width: 0; }
 .rk-poem-row-title {
   font-size: 1.05rem;
@@ -1280,7 +1022,7 @@ FILE: ./layouts/index.html
   background-position: center;
 }
 .rk-collection-banner-gradient {
-  background: linear-gradient(135deg, #0a3b1a 0%, #051a0d 100%);
+  background: linear-gradient(135deg, #0a1e50 0%, #040e28 100%);
 }
 .rk-collection-banner-body {
   padding: 1.5rem 1.75rem;
@@ -1318,7 +1060,7 @@ FILE: ./layouts/index.html
   font-size: 0.9rem;
   transition: all 0.2s;
 }
-.rk-theme-pill:hover { background: #0a3b1a; color: var(--gold); border-color: var(--border-light); }
+.rk-theme-pill:hover { background: #0a1e50; color: var(--gold); border-color: var(--border-light); }
 .rk-theme-count {
   font-size: 0.68rem;
   background: rgba(232,184,122,0.08);
@@ -1347,8 +1089,8 @@ FILE: ./layouts/index.html
 
 /* WOTD */
 .rk-wotd {
-  background: linear-gradient(145deg, #001508, #052212);
-  border-color: #0d3a1a;
+  background: linear-gradient(145deg, #000814, #050f2a);
+  border-color: #0d1e4a;
 }
 .rk-wotd .rk-widget-label { color: var(--gold-dim); opacity: 0.7; }
 .rk-wotd-word {
@@ -1401,7 +1143,7 @@ FILE: ./layouts/index.html
 .rk-poet-avatar-fallback {
   width: 44px; height: 44px;
   border-radius: 50%;
-  background: #0a3b1e;
+  background: #0a1e50;
   color: var(--gold);
   border: 2px solid var(--border-light);
   display: flex; align-items: center; justify-content: center;
@@ -1453,7 +1195,7 @@ FILE: ./layouts/index.html
   border-radius: 6px;
   overflow: hidden;
   flex-shrink: 0;
-  background: #0a3b1e;
+  background: #0a1e50;
   border: 1px solid var(--border-light);
   display: flex; align-items: center; justify-content: center;
   color: var(--gold-dim);
@@ -1483,7 +1225,7 @@ FILE: ./layouts/index.html
 /* ─── INTERLUDE ───────────────────────────────────────── */
 .rk-interlude {
   margin: 0 -1.5rem 3rem;
-  background: linear-gradient(135deg, #082a1a 0%, #051a10 100%);
+  background: linear-gradient(135deg, #081a3a 0%, #050f28 100%);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 3rem 2rem;
@@ -1966,7 +1708,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 <script src="/js/rhyme-dictionary.js"></script>
 
 <!-- ══════════════════════════════════════════════════════
-     RHYME DICTIONARY STYLES
+     RHYME DICTIONARY STYLES — BLUE THEME
      ══════════════════════════════════════════════════════ -->
 <style>
 /* ── PAGE LAYOUT ──────────────────────────────── */
@@ -2041,7 +1783,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 .rd-input:focus {
   border-color: var(--gold-dim);
   box-shadow: 0 0 0 4px rgba(232,184,122,0.07), 0 2px 20px rgba(0,0,0,0.4);
-  background: #082812;
+  background: #071830;
 }
 .rd-input::placeholder {
   color: rgba(160,120,88,0.45);
@@ -2103,7 +1845,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 }
 .rd-depth-pill:hover { border-color: var(--gold-dim); color: var(--gold); }
 .rd-depth-pill.active {
-  background: #0a3b1e;
+  background: #0a1e50;
   border-color: var(--border-light);
   color: var(--gold);
 }
@@ -2159,7 +1901,6 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   gap: 0.7rem;
 }
 
-/* Each rhyme result card */
 .rd-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -2175,11 +1916,10 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   transform: translateY(-1px);
 }
 
-/* Coloured left accent bar */
 .rd-card-accent {
   width: 4px;
   flex-shrink: 0;
-  background: linear-gradient(180deg, var(--accent) 0%, #0a3b1e 100%);
+  background: linear-gradient(180deg, var(--accent) 0%, #0a1e50 100%);
   opacity: 0.6;
 }
 
@@ -2203,11 +1943,10 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   margin-bottom: 0.25rem;
 }
 
-/* Highlight the rhyming suffix */
 .rd-word .rhyme-suffix {
   color: var(--accent-light);
   font-weight: bold;
-  border-bottom: 2px solid rgba(26,154,125,0.4);
+  border-bottom: 2px solid rgba(26,92,168,0.4);
 }
 
 .rd-sources {
@@ -2242,8 +1981,8 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   font-family: var(--font-hi);
   font-size: 0.88rem;
   color: var(--accent-light);
-  background: rgba(13,107,90,0.1);
-  border: 1px solid rgba(13,107,90,0.2);
+  background: rgba(26,92,168,0.1);
+  border: 1px solid rgba(26,92,168,0.2);
   border-radius: 6px;
   padding: 0.2rem 0.65rem;
   letter-spacing: 0.02em;
@@ -2316,7 +2055,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   cursor: pointer;
   transition: all 0.18s;
 }
-.rd-example-chip:hover { border-color: var(--gold-dim); color: var(--gold); background: #0a3b1e; }
+.rd-example-chip:hover { border-color: var(--gold-dim); color: var(--gold); background: #0a1e50; }
 
 /* ── RESPONSIVE ───────────────────────────────── */
 @media (max-width: 580px) {
@@ -2330,7 +2069,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 
 
 ================================================================
-FILE: ./layouts/tools/single(1).html
+FILE: ./layouts/tools/single.html
 ================================================================
 
 {{ define "main" }}
@@ -2387,7 +2126,7 @@ FILE: ./layouts/tools/single(1).html
 
 /* ─── INTRO BLOCK ──────────────────────────────────────────── */
 .tool-intro {
-  background: linear-gradient(145deg, #001508, #041e0d);
+  background: linear-gradient(145deg, #000814, #041430);
   border: 1px solid var(--border-light);
   border-radius: 12px;
   padding: 1.75rem 2rem;
@@ -2471,7 +2210,7 @@ FILE: ./layouts/tools/single(1).html
 .tool-card:hover {
   border-color: var(--border-light);
   box-shadow: 0 6px 28px rgba(0,0,0,0.5);
-  background: #082a15;
+  background: #071e3a;
 }
 
 .tool-card:hover::before {
@@ -2490,7 +2229,7 @@ FILE: ./layouts/tools/single(1).html
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #083b1e, #042213);
+  background: linear-gradient(135deg, #082e5a, #041a3e);
   border: 1px solid var(--border-light);
   display: flex;
   align-items: center;
@@ -2790,27 +2529,27 @@ FILE: ./static/css/main.css
 
 /* ============================================
    BHOJPURI KAVYA KOSHA — Main Stylesheet
-   Dark Teal Theme
+   Deep Blue Theme
    ============================================ */
 
 :root {
-  --accent:        #0d6b5a;        /* deep teal — primary actions */
-  --accent-light:  #1a9a7d;        /* hover teal */
+  --accent:        #1a5ca8;        /* deep blue — primary actions */
+  --accent-light:  #2e86d4;        /* hover blue */
   --gold:          #e8b87a;        /* primary gold */
   --gold-light:    #f5d9a0;        /* lighter gold for headings */
   --gold-dim:      #c9906a;        /* muted gold */
 
-  --bg:            #081a14;        /* near-black dark teal */
-  --bg-card:       #0d2219;        /* card background */
-  --bg-elevated:   #142e24;        /* slightly lighter panels */
-  --bg-header:     #051410;        /* header — darkest */
+  --bg:            #080e1a;        /* near-black dark blue */
+  --bg-card:       #0c1428;        /* card background */
+  --bg-elevated:   #121d38;        /* slightly lighter panels */
+  --bg-header:     #040a18;        /* header — darkest */
 
   --text:          #f0e0c8;        /* warm off-white body text */
   --text-light:    #a07858;        /* muted warm tan */
   --text-dim:      #7a5c44;        /* very muted */
 
-  --border:        #1a3d2e;        /* dark border */
-  --border-light:  #245e44;        /* slightly lighter border */
+  --border:        #182040;        /* dark border */
+  --border-light:  #1e3468;        /* slightly lighter border */
 
   --font-hi:       'Tiro Devanagari Hindi', serif;
   --font-en:       'Lora', Georgia, serif;
@@ -2899,7 +2638,7 @@ body {
 }
 
 /* ============================================
-   HERO (old, kept for non-home pages that might use it)
+   HERO (old, kept for non-home pages)
    ============================================ */
 .hero {
   text-align: center;
@@ -2912,7 +2651,7 @@ body {
 .hero-desc { color: var(--text-light); max-width: 600px; margin: 0 auto; }
 
 /* ============================================
-   HOME SECTIONS (legacy, used on inner pages)
+   HOME SECTIONS (legacy)
    ============================================ */
 .home-section { margin-bottom: 3rem; }
 .home-section h2 {
@@ -2998,7 +2737,7 @@ body {
 .poet-thumb-placeholder {
   width: 80px; height: 80px;
   border-radius: 50%;
-  background: #0a3b1e;
+  background: #0a1e50;
   color: var(--gold);
   display: flex; align-items: center; justify-content: center;
   font-size: 2rem;
@@ -3030,16 +2769,16 @@ body {
 .poem-poet a:hover { color: var(--gold); }
 .poem-themes { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; }
 .theme-tag {
-  background: rgba(13,107,90,0.12);
+  background: rgba(26,92,168,0.12);
   color: var(--accent-light);
-  border: 1px solid rgba(13,107,90,0.3);
+  border: 1px solid rgba(26,92,168,0.3);
   border-radius: 20px;
   padding: 0.2rem 0.75rem;
   font-size: 0.8rem;
   text-decoration: none;
   transition: background 0.2s;
 }
-.theme-tag:hover { background: rgba(13,107,90,0.22); }
+.theme-tag:hover { background: rgba(26,92,168,0.22); }
 .theme-tag.mini { font-size: 0.72rem; padding: 0.1rem 0.55rem; }
 
 .poem-body {
@@ -3104,7 +2843,7 @@ body {
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
-  background: #142e24;
+  background: #121d38;
   border: 1px solid var(--border-light);
   border-radius: 10px;
   padding: 0.8rem 1.2rem;
@@ -3180,7 +2919,7 @@ body {
 .theme-card-count { font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-en); }
 
 /* ============================================
-   FORMS TABS (Poems list page)
+   FORMS TABS
    ============================================ */
 .form-tabs {
   display: flex;
@@ -3202,7 +2941,7 @@ body {
   transition: all 0.2s;
 }
 .form-tab:hover { border-color: var(--gold-dim); color: var(--gold); }
-.form-tab.active { background: #0a3b1e; color: var(--gold); border-color: var(--border-light); }
+.form-tab.active { background: #0a1e50; color: var(--gold); border-color: var(--border-light); }
 .form-tab .count { font-size: 0.75rem; opacity: 0.8; }
 .form-badge {
   display: inline-block;
@@ -3264,7 +3003,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #0a3b1e 0%, #051a0d 100%);
+  background: linear-gradient(135deg, #0a1e50 0%, #040e28 100%);
   color: rgba(232,184,122,0.3);
   font-size: 4rem;
   font-family: var(--font-hi);
@@ -3339,7 +3078,7 @@ body {
   padding-bottom: 0.5rem;
 }
 .count-badge {
-  background: #0a3b1e;
+  background: #0a1e50;
   color: var(--gold);
   border: 1px solid var(--border-light);
   font-size: 0.8rem;
@@ -3355,23 +3094,20 @@ body {
   .collection-cover  { max-height: 220px; }
 }
 
-
 ================================================================
 FILE: ./static/css/nav-dropdown.css
 ================================================================
 
 /* ============================================
-   TOOLS DROPDOWN NAV — append to main.css
+   TOOLS DROPDOWN NAV — Blue Theme
    ============================================ */
 
-/* Dropdown container — sits inline with other nav links */
 .nav-dropdown {
   position: relative;
   display: inline-block;
   margin-left: 1.5rem;
 }
 
-/* The toggle button — styled to match nav links */
 .nav-dropdown-toggle {
   background: none;
   border: none;
@@ -3402,7 +3138,6 @@ FILE: ./static/css/nav-dropdown.css
   transform: rotate(180deg);
 }
 
-/* The dropdown panel */
 .nav-dropdown-menu {
   display: none;
   position: absolute;
@@ -3411,7 +3146,7 @@ FILE: ./static/css/nav-dropdown.css
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 8px;
-  box-shadow: 0 8px 28px rgba(8,26,20,0.18);
+  box-shadow: 0 8px 28px rgba(8,14,26,0.18);
   min-width: 210px;
   overflow: hidden;
   z-index: 200;
@@ -3427,7 +3162,6 @@ FILE: ./static/css/nav-dropdown.css
   display: block;
 }
 
-/* Each tool link inside the dropdown */
 .nav-dropdown-menu a {
   display: flex;
   align-items: center;
@@ -3445,7 +3179,7 @@ FILE: ./static/css/nav-dropdown.css
   border-bottom: none;
 }
 .nav-dropdown-menu a:hover {
-  background: rgba(13,107,90,0.06);
+  background: rgba(26,92,168,0.06);
   color: var(--accent);
 }
 .nav-dropdown-menu a:hover .tool-name,
@@ -3453,7 +3187,6 @@ FILE: ./static/css/nav-dropdown.css
   color: var(--accent);
 }
 
-/* Icon column */
 .tool-icon {
   font-size: 1.3rem;
   color: var(--accent);
@@ -3463,7 +3196,6 @@ FILE: ./static/css/nav-dropdown.css
   text-align: center;
 }
 
-/* Text column — stacked name (English top, Hindi bottom) */
 .tool-info {
   display: flex;
   flex-direction: column;
