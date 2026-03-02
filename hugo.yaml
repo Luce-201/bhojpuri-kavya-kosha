@@ -33,3 +33,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true   # allows HTML in markdown — needed for audio embeds
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
