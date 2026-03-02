@@ -89,7 +89,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 <script src="/js/rhyme-dictionary.js"></script>
 
 <!-- ══════════════════════════════════════════════════════
-     RHYME DICTIONARY STYLES
+     RHYME DICTIONARY STYLES — BLUE THEME
      ══════════════════════════════════════════════════════ -->
 <style>
 /* ── PAGE LAYOUT ──────────────────────────────── */
@@ -164,7 +164,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 .rd-input:focus {
   border-color: var(--gold-dim);
   box-shadow: 0 0 0 4px rgba(232,184,122,0.07), 0 2px 20px rgba(0,0,0,0.4);
-  background: #082812;
+  background: #071830;
 }
 .rd-input::placeholder {
   color: rgba(160,120,88,0.45);
@@ -226,7 +226,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
 }
 .rd-depth-pill:hover { border-color: var(--gold-dim); color: var(--gold); }
 .rd-depth-pill.active {
-  background: #0a3b1e;
+  background: #0a1e50;
   border-color: var(--border-light);
   color: var(--gold);
 }
@@ -282,7 +282,6 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   gap: 0.7rem;
 }
 
-/* Each rhyme result card */
 .rd-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -298,11 +297,10 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   transform: translateY(-1px);
 }
 
-/* Coloured left accent bar */
 .rd-card-accent {
   width: 4px;
   flex-shrink: 0;
-  background: linear-gradient(180deg, var(--accent) 0%, #0a3b1e 100%);
+  background: linear-gradient(180deg, var(--accent) 0%, #0a1e50 100%);
   opacity: 0.6;
 }
 
@@ -326,11 +324,10 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   margin-bottom: 0.25rem;
 }
 
-/* Highlight the rhyming suffix */
 .rd-word .rhyme-suffix {
   color: var(--accent-light);
   font-weight: bold;
-  border-bottom: 2px solid rgba(26,154,125,0.4);
+  border-bottom: 2px solid rgba(26,92,168,0.4);
 }
 
 .rd-sources {
@@ -365,8 +362,8 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   font-family: var(--font-hi);
   font-size: 0.88rem;
   color: var(--accent-light);
-  background: rgba(13,107,90,0.1);
-  border: 1px solid rgba(13,107,90,0.2);
+  background: rgba(26,92,168,0.1);
+  border: 1px solid rgba(26,92,168,0.2);
   border-radius: 6px;
   padding: 0.2rem 0.65rem;
   letter-spacing: 0.02em;
@@ -439,7 +436,7 @@ window.BRAJ_CORPUS = window.BHOJPURI_CORPUS;
   cursor: pointer;
   transition: all 0.18s;
 }
-.rd-example-chip:hover { border-color: var(--gold-dim); color: var(--gold); background: #0a3b1e; }
+.rd-example-chip:hover { border-color: var(--gold-dim); color: var(--gold); background: #0a1e50; }
 
 /* ── RESPONSIVE ───────────────────────────────── */
 @media (max-width: 580px) {

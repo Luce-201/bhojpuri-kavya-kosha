@@ -26,8 +26,8 @@ params:
   siteNameEn: "Bhojpuri Kavya Kosha"
   description: "A digital anthology of Bhojpuri language poetry"
   descriptionHi: "भोजपुरी भाषा काव्य का डिजिटल संग्रह"
-  accentColor: "#0d6b5a"   # deep teal — change if you want
-  bgColor: "#E3FDF6"        # cool mint background
+  accentColor: "#1a5ca8"   # deep blue — change if you want
+  bgColor: "#e8f0fd"        # cool blue background
 
 markup:
   goldmark:

@@ -10,7 +10,6 @@
       <span class="lang-en">Verse of the Day</span>
     </p>
     <blockquote class="rk-hero-verse">
-      <!-- Replace this with a Bhojpuri verse once content is added -->
       काहे रोवत बाड़ू सजनी, मिलन के बेरिया आई।<br>
       नैना के पनिया पोंछ ल रे, खुशियाँ लेके आई॥
     </blockquote>
@@ -34,7 +33,7 @@
 </section>
 
 <!-- ══════════════════════════════════════════════════════
-     STATS STRIP  (poems · poets · collections only)
+     STATS STRIP
      ══════════════════════════════════════════════════════ -->
 <div class="rk-stats-strip">
   <div class="rk-stats-inner">
@@ -292,12 +291,12 @@
 </section>
 
 <!-- ══════════════════════════════════════════════════════
-     HOME PAGE STYLES
+     HOME PAGE STYLES — BLUE THEME
      ══════════════════════════════════════════════════════ -->
 <style>
 /* ─── HERO ────────────────────────────────────────────── */
 .rk-hero {
-  background: linear-gradient(160deg, #00100a 0%, #082a1a 45%, #051a10 100%);
+  background: linear-gradient(160deg, #00081a 0%, #081a3a 45%, #050f28 100%);
   color: #f0e0c8;
   padding: 5rem 2rem 4.5rem;
   text-align: center;
@@ -309,7 +308,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, rgba(13,107,90,0.18) 0%, transparent 70%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(26,92,168,0.18) 0%, transparent 70%);
   pointer-events: none;
 }
 .rk-hero::after {
@@ -414,7 +413,7 @@
 
 /* ─── STATS STRIP ─────────────────────────────────────── */
 .rk-stats-strip {
-  background: #060f0b;
+  background: #03070f;
   border-bottom: 1px solid var(--border);
   margin: 0 -1.5rem 2.5rem;
 }
@@ -512,7 +511,7 @@
   gap: 1rem;
 }
 .rk-poem-row:last-child { border-bottom: none; }
-.rk-poem-row:hover { background: #082c1a; padding-left: 1.6rem; }
+.rk-poem-row:hover { background: #081e42; padding-left: 1.6rem; }
 .rk-poem-row-text { flex: 1; min-width: 0; }
 .rk-poem-row-title {
   font-size: 1.05rem;
@@ -564,7 +563,7 @@
   background-position: center;
 }
 .rk-collection-banner-gradient {
-  background: linear-gradient(135deg, #0a3b1a 0%, #051a0d 100%);
+  background: linear-gradient(135deg, #0a1e50 0%, #040e28 100%);
 }
 .rk-collection-banner-body {
   padding: 1.5rem 1.75rem;
@@ -602,7 +601,7 @@
   font-size: 0.9rem;
   transition: all 0.2s;
 }
-.rk-theme-pill:hover { background: #0a3b1a; color: var(--gold); border-color: var(--border-light); }
+.rk-theme-pill:hover { background: #0a1e50; color: var(--gold); border-color: var(--border-light); }
 .rk-theme-count {
   font-size: 0.68rem;
   background: rgba(232,184,122,0.08);
@@ -631,8 +630,8 @@
 
 /* WOTD */
 .rk-wotd {
-  background: linear-gradient(145deg, #001508, #052212);
-  border-color: #0d3a1a;
+  background: linear-gradient(145deg, #000814, #050f2a);
+  border-color: #0d1e4a;
 }
 .rk-wotd .rk-widget-label { color: var(--gold-dim); opacity: 0.7; }
 .rk-wotd-word {
@@ -685,7 +684,7 @@
 .rk-poet-avatar-fallback {
   width: 44px; height: 44px;
   border-radius: 50%;
-  background: #0a3b1e;
+  background: #0a1e50;
   color: var(--gold);
   border: 2px solid var(--border-light);
   display: flex; align-items: center; justify-content: center;
@@ -737,7 +736,7 @@
   border-radius: 6px;
   overflow: hidden;
   flex-shrink: 0;
-  background: #0a3b1e;
+  background: #0a1e50;
   border: 1px solid var(--border-light);
   display: flex; align-items: center; justify-content: center;
   color: var(--gold-dim);
@@ -767,7 +766,7 @@
 /* ─── INTERLUDE ───────────────────────────────────────── */
 .rk-interlude {
   margin: 0 -1.5rem 3rem;
-  background: linear-gradient(135deg, #082a1a 0%, #051a10 100%);
+  background: linear-gradient(135deg, #081a3a 0%, #050f28 100%);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 3rem 2rem;
