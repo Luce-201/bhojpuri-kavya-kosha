@@ -1,7 +1,7 @@
 ---
 title: "Hansi hansi panwa"
-poet: "Mahendar Misir "
-type: geet
+poet: "Mahendar Misir"
+draft: false
 notes: >-
   कजरी नजरिया से खेलई रे बदरिया  
 
