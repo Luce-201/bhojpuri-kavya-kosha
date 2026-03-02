@@ -184,7 +184,7 @@
         {{ range first 4 (where .Site.RegularPages "Type" "poets") }}
         <a href="{{ .Permalink }}" class="rk-poet-row">
           {{ with .Params.image }}
-          <img src="{{ . }}" alt="{{ .Title }}" class="rk-poet-avatar">
+          <img src="{{ . }}" alt="" class="rk-poet-avatar">
           {{ else }}
           <div class="rk-poet-avatar rk-poet-avatar-fallback">{{ substr .Title 0 1 }}</div>
           {{ end }}
