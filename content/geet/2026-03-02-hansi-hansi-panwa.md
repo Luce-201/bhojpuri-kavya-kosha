@@ -1,5 +1,5 @@
 ---
-title: "Hansi hansi panwa "
+title: "Hansi hansi panwa"
 poet: "Mahendar Misir "
 type: geet
 notes: >-

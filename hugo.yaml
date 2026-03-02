@@ -8,6 +8,8 @@ outputs:
     - JSON
   section:
     - HTML
+  page:
+    - HTML
 
 # Taxonomies — this creates your category/filter system
 taxonomies:
