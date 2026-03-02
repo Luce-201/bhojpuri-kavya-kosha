@@ -6,7 +6,8 @@ outputs:
     - HTML
     - RSS
     - JSON
-defaultContentLanguage: "hi"
+  section:
+    - HTML
 
 # Taxonomies — this creates your category/filter system
 taxonomies:
@@ -35,10 +36,4 @@ markup:
       unsafe: true   # allows HTML in markdown — needed for audio embeds
 
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
-  section:
-    - HTML
+
