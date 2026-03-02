@@ -10,14 +10,6 @@
     </p>
     {{ end }}
 
-    {{ with .Params.raag }}
-    <p class="poem-poet" style="font-style:italic; font-size:0.9rem;">
-      <span class="lang-hi">राग:</span>
-      <span class="lang-en">Raag:</span>
-      {{ . }}
-    </p>
-    {{ end }}
-
     {{ if .Params.themes }}
       {{ $themes := .Params.themes }}
       {{ if not (reflect.IsSlice $themes) }}
