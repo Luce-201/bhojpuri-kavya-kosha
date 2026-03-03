@@ -5,10 +5,22 @@
     <h1 class="poem-title">{{ .Title }}</h1>
 
     {{ with .Params.poet }}
-    <p class="poem-poet">
-      <a href="/poets/{{ . | urlize }}/">{{ . }}</a>
-    </p>
+  {{ $poetName := . }}
+  {{ $poetPages := where $.Site.RegularPages "Type" "poets" }}
+  {{ $match := "" }}
+  {{ range $poetPages }}
+    {{ if eq (strings.TrimSpace .Title) (strings.TrimSpace $poetName) }}
+      {{ $match = .Permalink }}
     {{ end }}
+  {{ end }}
+  <p class="poem-poet">
+    {{ if $match }}
+      <a href="{{ $match }}">{{ $poetName }}</a>
+    {{ else }}
+      {{ $poetName }}
+    {{ end }}
+  </p>
+{{ end }}
 
     {{ if .Params.themes }}
       {{ $themes := .Params.themes }}
