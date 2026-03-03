@@ -34,6 +34,32 @@ content:
         type: "rich-text"
       - { label: "Draft", name: "draft", type: "boolean", default: false }
       - { label: "Date", name: "date", type: "date" }
+
+  - name: "geet"
+    label: "गीत / Geet"
+    type: "collection"
+    path: "content/geet"
+    view:
+      fields: ["title", "poet"]
+    fields:
+      - { label: "शीर्षक / Title", name: "title", type: "string" }
+      - { label: "कवि / Poet", name: "poet", type: "string" }
+      - name: "themes"
+        label: "विषय / Themes"
+        type: "list"
+      - name: "audio_url"
+        label: "पाठ लिंक / Audio URL"
+        type: "string"
+        required: false
+      - name: "notes"
+        label: "टिप्पणी / Notes"
+        type: "rich-text"
+        required: false
+      - name: "body"
+        label: "गीत / Geet Text"
+        type: "rich-text"
+      - { label: "Draft", name: "draft", type: "boolean", default: false }
+      - { label: "Date", name: "date", type: "date" }
       
   - name: "poets"
     label: "कवि / Poets"
