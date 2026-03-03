@@ -22,20 +22,56 @@
     {{ .Content }}
   </div>
 
-  {{ $poet := .Title }}
-  {{ $poems := where .Site.RegularPages "Params.poet" $poet }}
-  {{ if $poems }}
+  {{ $poet := strings.TrimSpace .Title }}
+
+  {{ $poems := where .Site.RegularPages "Type" "poems" }}
+  {{ $poetPoems := slice }}
+  {{ range $poems }}
+    {{ if eq (strings.TrimSpace .Params.poet) $poet }}
+      {{ $poetPoems = $poetPoems | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $geets := where .Site.RegularPages "Type" "geet" }}
+  {{ $poetGeets := slice }}
+  {{ range $geets }}
+    {{ if eq (strings.TrimSpace .Params.poet) $poet }}
+      {{ $poetGeets = $poetGeets | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $poetPoems }}
   <section class="poet-poems">
     <h2>
-      <span class="lang-hi">रचनाएँ</span>
-      <span class="lang-en">Works</span>
+      <span class="lang-hi">कविताएँ</span>
+      <span class="lang-en">Poems</span>
+      <span class="count-badge">{{ len $poetPoems }}</span>
     </h2>
     <div class="poem-grid">
-      {{ range $poems }}
-      {{ partial "poem-card.html" . }}
+      {{ range $poetPoems }}
+        {{ partial "poem-card.html" . }}
       {{ end }}
     </div>
   </section>
+  {{ end }}
+
+  {{ if $poetGeets }}
+  <section class="poet-poems">
+    <h2>
+      <span class="lang-hi">गीत</span>
+      <span class="lang-en">Geet</span>
+      <span class="count-badge">{{ len $poetGeets }}</span>
+    </h2>
+    <div class="poem-grid">
+      {{ range $poetGeets }}
+        {{ partial "poem-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{ if and (not $poetPoems) (not $poetGeets) }}
+  <p class="empty-msg">इस कवि की कोई रचना अभी उपलब्ध नहीं है। / No works available yet.</p>
   {{ end }}
 
 </article>
